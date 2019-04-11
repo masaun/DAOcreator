@@ -45,11 +45,7 @@ class DAOcreator extends React.Component<Props> {
       },
       {
         title: "Features (schemes)",
-        component: (
-          <div>
-            <SchemeStep />
-          </div>
-        ),
+        component: <SchemeStep />,
       },
       //      {
       //        title: "Voting",

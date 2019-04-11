@@ -4,7 +4,7 @@ import { DAOcreatorState } from "../../state"
 
 const initialState: DAOcreatorState = {
   step: 0,
-  stepValidation: [true],
+  stepValidation: [false],
   naming: {
     daoName: "",
     tokenName: "",
